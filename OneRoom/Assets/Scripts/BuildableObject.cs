@@ -1,17 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Player : MonoBehaviour {
-
-    
+public abstract class BuildableObject : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
-	
+	public virtual void Start () {
+
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public virtual void Update () {
 	
 	}
 }
